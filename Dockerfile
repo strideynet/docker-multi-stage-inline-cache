@@ -6,4 +6,4 @@ FROM scratch as buildbox
 
 COPY ./b ./b
 
-COPY --from base /a /a
+COPY --from=base /a /a
