@@ -1,7 +1,7 @@
 FROM scratch AS base
 
-ADD ./a ./a
+COPY ./a ./a
 
 FROM base as buildbox
 
-ADD ./b ./b
+COPY ./b ./b
